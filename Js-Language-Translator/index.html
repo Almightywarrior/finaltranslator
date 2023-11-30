@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .center-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+       
+        .centre {
+    text-align: center;
+    margin: 20px auto; /* Adjust the top margin as needed */
+    display: block;
+    transition: transform 0.3s ease, text-shadow 0.3s ease; /* Add transitions for both properties */
+}
+
+.centre:hover {
+    transform: scale(1.2); /* Apply zoom-in effect on hover */
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8); /* Add a shadow on hover */
+}
+
+.centre h1 {
+    font-weight: bold; /* Make the text bold */
+    font-size: 24px; /* Adjust the font size as needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a default shadow */
+}
+
+.button-container {
+    display: flex;
+}
+
+button {
+    margin-right: 10px;
+    padding: 20px;
+    width: 175px;
+    height: 190px;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+    </style>
+    <title>Home</title>
+</head>
+<body>
+
+    <nav class="centre">
+               <h1>     <b>VAV TRANSLATOR</b>
+          </h1>
+    </nav>
+    <div class="center-container">
+        <div class="button-container">
+            <a href="translate.html"><button>Translator</button></a>
+            <a href="mehenat.html"><button>Another Button</button></a>
+        </div>
+    </div>
+</body>
+</html>
